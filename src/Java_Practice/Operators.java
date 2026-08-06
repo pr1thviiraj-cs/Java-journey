@@ -1,10 +1,14 @@
 package Java_Practice;
 public class Operators {
     public static void main(String[] args){
-        int a = 10;
-        int b = 5;
-        int sum = a+b;
-        System.out.println("Sum of Two numbes is: "+sum);
+       int length = 15;
+       int breadth = 10;
+       int area = length * breadth;
+        System.out.println("The Area of Rectangle is: "+area);
+
+        float radius = 7.0F;
+        float Area = 3.14F * radius * radius;
+        System.out.println("The Area of Rectangle is: "+Area);
     }
 }
-//Same for other Operators "- , / , % , *"
+
