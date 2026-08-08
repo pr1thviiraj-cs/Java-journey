@@ -10,5 +10,6 @@ public class FactorialCalculator {
             fact = fact*i;
         }
         System.out.println("Factorial = " + fact);
+        sc.close();
     }
 }
