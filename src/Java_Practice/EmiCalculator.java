@@ -20,5 +20,13 @@ public class EmiCalculator {
         System.out.println("Total Payment: "+TP);
 
         System.out.println("Your Monthly Payment is: "+MP);
+
+        sc.close();
     }
 }
+
+// NOTATIONS:
+// 1 .MIR :- Monthly Intrest Rate.
+// 2. LA :- Loan Amount.
+// 3. YIR :- Yearly Intrest Rate.
+// 4. MP :- Monthly Payment.
