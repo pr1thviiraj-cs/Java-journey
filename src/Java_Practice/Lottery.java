@@ -5,12 +5,12 @@ public class Lottery {
 
         Scanner sc = new Scanner(System.in);
 
-        // Generate lottery number between 10 and 99
+
         int lottery = (int)(Math.random() * 90) + 10;
 
         System.out.print("Enter a two-digit number: ");
         int user = sc.nextInt();
-        // Validation of 2- digit number
+
         if (user < 10 || user > 99) {
             System.out.println("Invalid Input!");
             System.out.println("Please enter a TWO-DIGIT number.");
@@ -26,19 +26,19 @@ public class Lottery {
 
         System.out.println("Lottery Number = " + lottery);
 
-        // Exact match
+
         if (user == lottery) {
             System.out.println("🎉 Exact Match!");
             System.out.println("You won $10,000!");
 
-            // Same digits, different order
+
         } else if (userDigit1 == lotteryDigit2 &&
                 userDigit2 == lotteryDigit1) {
 
             System.out.println("🎉 Both digits match!");
             System.out.println("You won $3,000!");
 
-            // One digit matches
+
         } else if (userDigit1 == lotteryDigit1 ||
                 userDigit1 == lotteryDigit2 ||
                 userDigit2 == lotteryDigit1 ||
